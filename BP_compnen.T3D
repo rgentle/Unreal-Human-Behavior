@@ -1,0 +1,29 @@
+Begin Object Class=/Script/Engine.Blueprint Name="BP_compnen"
+   Begin Object Class=/Script/Engine.EdGraph Name="ExecuteUbergraph_BP_compnen"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph"
+   End Object
+   Begin Object Name="ExecuteUbergraph_BP_compnen"
+      Schema=/Script/CoreUObject.Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      GraphGuid=D7DB53574B8486916CB22F8B62CDDAAA
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="EventGraph"
+      Schema=/Script/CoreUObject.Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      bAllowDeletion=False
+      GraphGuid=3C85B63042E5B432E634CCA6B04C8143
+   End Object
+   ParentClass=/Script/CoreUObject.Class'"/Script/Engine.ActorComponent"'
+   BlueprintSystemVersion=2
+   UbergraphPages(0)=/Script/Engine.EdGraph'"EventGraph"'
+   NewVariables(0)=(VarName="PatrolPath",VarGuid=2029B6A346752F07FCFE138533C11204,VarType=(PinCategory="object",PinSubCategoryObject=/Script/Engine.BlueprintGeneratedClass'"/Game/Characters/AI/AIObject_PatrolPath.AIObject_PatrolPath_C"',PinValueType=(TerminalCategory="real",TerminalSubCategory="double"),ContainerType=Map),FriendlyName="Patrol Path",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=67589)
+   CategorySorting(0)="Default"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/Characters/AI/BP_compnen.BP_compnen:EventGraph",SavedViewOffset=(X=-553.859286,Y=-344.010799),SavedZoomAmount=0.675000)
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+   GeneratedClass=/Script/Engine.BlueprintGeneratedClass'"BP_compnen_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=6C970EB24F6E432359A3D8A083AE844C
+End Object

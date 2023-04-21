@@ -1,0 +1,58 @@
+Begin Object Class=/Script/AIModule.BlackboardData Name="BB_NPC"
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Int Name="BlackboardKeyType_Int_0"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Int Name="BlackboardKeyType_Int_1"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Int Name="BlackboardKeyType_Int_2"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Int Name="BlackboardKeyType_Int_3"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Int Name="BlackboardKeyType_Int_4"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKeyType_Object_0"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKeyType_Vector_0"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKeyType_Vector_1"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKeyType_Vector_2"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKeyType_Vector_3"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKeyType_Vector_4"
+   End Object
+   Begin Object Name="BlackboardKeyType_Int_0"
+   End Object
+   Begin Object Name="BlackboardKeyType_Int_1"
+   End Object
+   Begin Object Name="BlackboardKeyType_Int_2"
+   End Object
+   Begin Object Name="BlackboardKeyType_Int_3"
+   End Object
+   Begin Object Name="BlackboardKeyType_Int_4"
+   End Object
+   Begin Object Name="BlackboardKeyType_Object_0"
+      BaseClass=/Script/CoreUObject.Class'"/Script/Engine.Actor"'
+   End Object
+   Begin Object Name="BlackboardKeyType_Vector_0"
+   End Object
+   Begin Object Name="BlackboardKeyType_Vector_1"
+   End Object
+   Begin Object Name="BlackboardKeyType_Vector_2"
+   End Object
+   Begin Object Name="BlackboardKeyType_Vector_3"
+   End Object
+   Begin Object Name="BlackboardKeyType_Vector_4"
+   End Object
+   Keys(0)=(EntryName="SelfActor",KeyType=/Script/AIModule.BlackboardKeyType_Object'"BlackboardKeyType_Object_0"')
+   Keys(1)=(EntryName="SoundLocation",KeyType=/Script/AIModule.BlackboardKeyType_Vector'"BlackboardKeyType_Vector_2"')
+   Keys(2)=(EntryName="CompareVal",KeyType=/Script/AIModule.BlackboardKeyType_Int'"BlackboardKeyType_Int_0"')
+   Keys(3)=(EntryName="MoveToSound",KeyType=/Script/AIModule.BlackboardKeyType_Int'"BlackboardKeyType_Int_1"')
+   Keys(4)=(EntryName="DestrChar",KeyType=/Script/AIModule.BlackboardKeyType_Int'"BlackboardKeyType_Int_2"')
+   Keys(5)=(EntryName="Attractive",KeyType=/Script/AIModule.BlackboardKeyType_Int'"BlackboardKeyType_Int_3"')
+   Keys(6)=(EntryName="Repulsive",KeyType=/Script/AIModule.BlackboardKeyType_Int'"BlackboardKeyType_Int_4"')
+   Keys(7)=(EntryName="NPCLocation",KeyType=/Script/AIModule.BlackboardKeyType_Vector'"BlackboardKeyType_Vector_0"')
+   Keys(8)=(EntryName="TargetLocation",KeyType=/Script/AIModule.BlackboardKeyType_Vector'"BlackboardKeyType_Vector_1"')
+   Keys(9)=(EntryName="CurrentDirectionVect",KeyType=/Script/AIModule.BlackboardKeyType_Vector'"BlackboardKeyType_Vector_3"')
+   Keys(10)=(EntryName="TempTarget",KeyType=/Script/AIModule.BlackboardKeyType_Vector'"BlackboardKeyType_Vector_4"')
+End Object

@@ -1,0 +1,432 @@
+Begin Object Class=/Script/AIModule.BehaviorTree Name="BT_NPC"
+   Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraph Name="Behavior Tree"
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_0"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_1"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_2"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_5"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_6"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_7"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_15"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_229"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_31"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_47"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root Name="BehaviorTreeGraphNode_Root_0"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_0"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_11"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_12"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_14"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_2"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_4"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_9"
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_0"
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_1"
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_3"
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_4"
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_5"
+      End Object
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_0"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_4"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_5"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_6"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_0"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_3"
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_CompareBBEntries Name="BTDecorator_CompareBBEntries_1"
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_CompareBBEntries Name="BTDecorator_CompareBBEntries_2"
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_CompareBBEntries Name="BTDecorator_CompareBBEntries_3"
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_CompareBBEntries Name="BTDecorator_CompareBBEntries_4"
+   End Object
+   Begin Object Class=/Game/Characters/AI/BTT_Set_Var_INT.BTT_Set_Var_INT_C Name="BTT_Set_Var_INT_C_1"
+   End Object
+   Begin Object Class=/Game/Characters/AI/BTT_Set_Var_INT.BTT_Set_Var_INT_C Name="BTT_Set_Var_INT_C_2"
+   End Object
+   Begin Object Class=/Game/Characters/AI/BTTask_DestroyChar.BTTask_DestroyChar_C Name="BTTask_DestroyChar_C_0"
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_MoveTo Name="BTTask_MoveTo_1"
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKey_Object_0" Archetype=/Script/AIModule.BlackboardKeyType_Object'/Script/AIModule.Default__BTTask_MoveTo:BlackboardKey_Object_0'
+      End Object
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKey_Vector" Archetype=/Script/AIModule.BlackboardKeyType_Vector'/Script/AIModule.Default__BTTask_MoveTo:BlackboardKey_Vector'
+      End Object
+   End Object
+   Begin Object Class=/Game/Characters/AI/BTTask_Patrol.BTTask_Patrol_C Name="BTTask_Patrol_C_3"
+   End Object
+   Begin Object Class=/Game/Characters/AI/BTTask_Repulsive_Sound.BTTask_Repulsive_Sound_C Name="BTTask_Repulsive_Sound_C_2"
+   End Object
+   Begin Object Class=/Game/Characters/AI/BTTask_Set45_Target.BTTask_Set45_Target_C Name="BTTask_Set45_Target_C_0"
+   End Object
+   Begin Object Name="Behavior Tree"
+      Begin Object Name="BehaviorTreeGraphNode_Composite_0"
+         Decorators(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_NPC:Behavior Tree.BehaviorTreeGraphNode_Decorator_31"'
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance=/Script/AIModule.BTComposite_Sequence'"BT_NPC:BTComposite_Sequence_0"'
+         SubNodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_NPC:Behavior Tree.BehaviorTreeGraphNode_Decorator_31"'
+         NodePosX=-624
+         NodePosY=1264
+         NodeGuid=FB56615F427666F6FCF473A3A664E29D
+         CustomProperties Pin (PinId=FD0204444B77AC1FE2A0D6BB03BCB433,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_5 ADEB660F483E02720A503B9614E0E159,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7E239883452BE71C11CBBF91538098EB,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_0 E45AFDEB444A0C85EC4165BBD7AB15CC,BehaviorTreeGraphNode_Task_14 A43B99944C32281C0D6FA3A388B6C537,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_1"
+         Decorators(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_NPC:Behavior Tree.BehaviorTreeGraphNode_Decorator_15"'
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_0"'
+         SubNodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_NPC:Behavior Tree.BehaviorTreeGraphNode_Decorator_15"'
+         NodePosX=1046
+         NodePosY=1540
+         NodeGuid=1E28C7404E5E87F63DCD0C9230FE23D1
+         CustomProperties Pin (PinId=7545B3B2424571B5594D998070C31C36,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_6 E4F8D7114D32C6E396DC14B2C81317A9,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D6E5700B4DABD99F4055F6AC100E569F,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_11 C5C34D524FC7AD3D691ED7809265FFC7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_2"
+         Decorators(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_NPC:Behavior Tree.BehaviorTreeGraphNode_Decorator_47"'
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance=/Script/AIModule.BTComposite_Sequence'"BT_NPC:BTComposite_Sequence_3"'
+         SubNodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_NPC:Behavior Tree.BehaviorTreeGraphNode_Decorator_47"'
+         NodePosY=1280
+         NodeGuid=2A0707744A59D0957263ADAE12054F20
+         CustomProperties Pin (PinId=1E5E79D5465AA5D52ED886AAC700BA18,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_5 ADEB660F483E02720A503B9614E0E159,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5A31DB9B4EEC3CDE39FE0E852B28747A,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_2 FD8A80AC45DD0D686261D1AECC6AF546,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_5"
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_5"'
+         CopySubNodeIndex=3
+         NodePosX=208
+         NodePosY=1008
+         NodeGuid=3C4C29414321376B222982A76DFE8600
+         CustomProperties Pin (PinId=12566C51496FD6A82DC78FB153B7E985,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_7 1F1193CB4250AC70A6BD008419629A0C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=ADEB660F483E02720A503B9614E0E159,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 FD0204444B77AC1FE2A0D6BB03BCB433,BehaviorTreeGraphNode_Composite_2 1E5E79D5465AA5D52ED886AAC700BA18,BehaviorTreeGraphNode_Composite_6 0204B8F345831288A84CE994474D0333,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_6"
+         Decorators(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_NPC:Behavior Tree.BehaviorTreeGraphNode_Decorator_229"'
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_6"'
+         SubNodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_NPC:Behavior Tree.BehaviorTreeGraphNode_Decorator_229"'
+         CopySubNodeIndex=7
+         NodePosX=566
+         NodePosY=1268
+         NodeGuid=99FF7C254D56D39064B1A1A70D729555
+         CustomProperties Pin (PinId=0204B8F345831288A84CE994474D0333,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_5 ADEB660F483E02720A503B9614E0E159,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E4F8D7114D32C6E396DC14B2C81317A9,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_4 5629C2AE4D0D06C83076A09D41ED1C61,BehaviorTreeGraphNode_Composite_1 7545B3B2424571B5594D998070C31C36,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_7"
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_4"'
+         NodePosX=240
+         NodePosY=736
+         NodeGuid=FD1621C4479500B8221913A0044E9304
+         CustomProperties Pin (PinId=CF5B9336431FC9247CA9DF8EEB399212,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Root_0 546DA44A466FE42EB3CFFAA257233611,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1F1193CB4250AC70A6BD008419629A0C,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_9 207DE62C4F69C3EC85BA7F98FD59221D,BehaviorTreeGraphNode_Composite_5 12566C51496FD6A82DC78FB153B7E985,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_15"
+         ClassData=(ClassName="BTDecorator_CompareBBEntries")
+         NodeInstance=/Script/AIModule.BTDecorator_CompareBBEntries'"BT_NPC:BTDecorator_CompareBBEntries_2"'
+         NodeGuid=3216201548E6FBEC176CECAEAE0EE314
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_229"
+         ClassData=(ClassName="BTDecorator_CompareBBEntries")
+         NodeInstance=/Script/AIModule.BTDecorator_CompareBBEntries'"BT_NPC:BTDecorator_CompareBBEntries_1"'
+         NodeGuid=C9BA03AB4C71D7209F55CAAE37B15EA9
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_31"
+         ClassData=(ClassName="BTDecorator_CompareBBEntries")
+         NodeInstance=/Script/AIModule.BTDecorator_CompareBBEntries'"BT_NPC:BTDecorator_CompareBBEntries_3"'
+         NodeGuid=77D7A9284D67198F6F601F8F7F4763D9
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_47"
+         ClassData=(ClassName="BTDecorator_CompareBBEntries")
+         NodeInstance=/Script/AIModule.BTDecorator_CompareBBEntries'"BT_NPC:BTDecorator_CompareBBEntries_4"'
+         NodeGuid=5C99C3134F718A3E5B46988578E7EDF8
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Root_0"
+         BlackboardAsset=/Script/AIModule.BlackboardData'"/Game/Characters/AI/BB_NPC.BB_NPC"'
+         NodePosX=288
+         NodePosY=528
+         NodeGuid=7372A73A4B92D0E6762094A84848715E
+         CustomProperties Pin (PinId=546DA44A466FE42EB3CFFAA257233611,PinName="In",Direction="EGPD_Output",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_7 CF5B9336431FC9247CA9DF8EEB399212,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_0"
+         ClassData=(ClassName="BTTask_MoveTo")
+         NodeInstance=/Script/AIModule.BTTask_MoveTo'"BT_NPC:BTTask_MoveTo_1"'
+         NodePosX=-640
+         NodePosY=1536
+         NodeGuid=BBEFD5214D908B72C8012F84D1F64235
+         CustomProperties Pin (PinId=E45AFDEB444A0C85EC4165BBD7AB15CC,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 7E239883452BE71C11CBBF91538098EB,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_11"
+         ClassData=(AssetName="BTTask_DestroyChar",GeneratedClassPackage="/Game/Characters/AI/BTTask_DestroyChar",ClassName="BTTask_DestroyChar_C")
+         NodeInstance=/Game/Characters/AI/BTTask_DestroyChar.BTTask_DestroyChar_C'"BT_NPC:BTTask_DestroyChar_C_0"'
+         NodePosX=1072
+         NodePosY=1712
+         NodeGuid=F20972894BEB4B756EDBD19C4389BFD9
+         CustomProperties Pin (PinId=C5C34D524FC7AD3D691ED7809265FFC7,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_1 D6E5700B4DABD99F4055F6AC100E569F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_12"
+         ClassData=(AssetName="BTTask_Set45_Target",GeneratedClassPackage="/Game/Characters/AI/BTTask_Set45_Target",ClassName="BTTask_Set45_Target_C")
+         NodeInstance=/Game/Characters/AI/BTTask_Set45_Target.BTTask_Set45_Target_C'"BT_NPC:BTTask_Set45_Target_C_0"'
+         NodePosX=-1072
+         NodePosY=1760
+         NodeGuid=572E1541483DF956E607F88198667985
+         CustomProperties Pin (PinId=EEC2AEE54F780EDA94AFE9A2FC5BDEF8,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_14"
+         ClassData=(AssetName="BTT_Set_Var_INT",GeneratedClassPackage="/Game/Characters/AI/BTT_Set_Var_INT",ClassName="BTT_Set_Var_INT_C")
+         NodeInstance=/Game/Characters/AI/BTT_Set_Var_INT.BTT_Set_Var_INT_C'"BT_NPC:BTT_Set_Var_INT_C_2"'
+         NodePosX=-368
+         NodePosY=1504
+         NodeGuid=102325C34F8E9D898F41B98EACB1E89F
+         CustomProperties Pin (PinId=A43B99944C32281C0D6FA3A388B6C537,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 7E239883452BE71C11CBBF91538098EB,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_2"
+         ClassData=(AssetName="BTTask_Repulsive_Sound",GeneratedClassPackage="/Game/Characters/AI/BTTask_Repulsive_Sound",ClassName="BTTask_Repulsive_Sound_C")
+         NodeInstance=/Game/Characters/AI/BTTask_Repulsive_Sound.BTTask_Repulsive_Sound_C'"BT_NPC:BTTask_Repulsive_Sound_C_2"'
+         NodePosX=16
+         NodePosY=1520
+         NodeGuid=270C54E942E3A500277C00A4A68241FE
+         CustomProperties Pin (PinId=FD8A80AC45DD0D686261D1AECC6AF546,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_2 5A31DB9B4EEC3CDE39FE0E852B28747A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_4"
+         ClassData=(AssetName="BTTask_Patrol",GeneratedClassPackage="/Game/Characters/AI/BTTask_Patrol",ClassName="BTTask_Patrol_C")
+         NodeInstance=/Game/Characters/AI/BTTask_Patrol.BTTask_Patrol_C'"BT_NPC:BTTask_Patrol_C_3"'
+         CopySubNodeIndex=8
+         NodePosX=598
+         NodePosY=1556
+         NodeGuid=B2D76FBE487336782DD3499813B91942
+         CustomProperties Pin (PinId=5629C2AE4D0D06C83076A09D41ED1C61,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_6 E4F8D7114D32C6E396DC14B2C81317A9,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_9"
+         ClassData=(AssetName="BTT_Set_Var_INT",GeneratedClassPackage="/Game/Characters/AI/BTT_Set_Var_INT",ClassName="BTT_Set_Var_INT_C")
+         NodeInstance=/Game/Characters/AI/BTT_Set_Var_INT.BTT_Set_Var_INT_C'"BT_NPC:BTT_Set_Var_INT_C_1"'
+         NodePosX=32
+         NodePosY=832
+         NodeGuid=A74ACE1A4C91F617C7A7F187E7CC3D30
+         CustomProperties Pin (PinId=207DE62C4F69C3EC85BA7F98FD59221D,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_7 1F1193CB4250AC70A6BD008419629A0C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="EdGraphNode_Comment_0"
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=976
+         NodePosY=1312
+         NodeWidth=416
+         NodeHeight=496
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="Delete\'s Controlled NP on arrival to final destination - Ex. When NPC reaches Starbucks"
+         NodeGuid=44D3747A44315ECB2F0BB690A5EA3C9D
+      End Object
+      Begin Object Name="EdGraphNode_Comment_1"
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=496
+         NodePosY=1200
+         NodeWidth=416
+         NodeHeight=496
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="This will control the NPC moving towards its final destination"
+         NodeGuid=A5FA717B44F9EF93DBD5369384220B9F
+      End Object
+      Begin Object Name="EdGraphNode_Comment_3"
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=-32
+         NodePosY=672
+         NodeWidth=523
+         NodeHeight=300
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="This creates a variable I can compare to in my Compare BBBEntries"
+         NodeGuid=3DB57FF1402DFBE6946CD290099C331B
+      End Object
+      Begin Object Name="EdGraphNode_Comment_4"
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=-790
+         NodePosY=1164
+         NodeWidth=528
+         NodeHeight=480
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="This will be activated when an Attractive sound tag is detected"
+         NodeGuid=C9C68A2E41C245D5AA0679820DFBD6F8
+      End Object
+      Begin Object Name="EdGraphNode_Comment_5"
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=-68
+         NodePosY=1180
+         NodeHeight=496
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="This will be activated when a Repulsive sound tag is detected"
+         NodeGuid=92E9E00242D4F408FD057695A0A5B018
+      End Object
+      ModCounter=246
+      bIsUsingModCounter=True
+      GraphVersion=3
+      Nodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root'"BehaviorTreeGraphNode_Root_0"'
+      Nodes(1)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_5"'
+      Nodes(2)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_6"'
+      Nodes(3)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_4"'
+      Nodes(4)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_9"'
+      Nodes(5)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_7"'
+      Nodes(6)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_1"'
+      Nodes(7)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_11"'
+      Nodes(8)=/Script/UnrealEd.EdGraphNode_Comment'"EdGraphNode_Comment_0"'
+      Nodes(9)=/Script/UnrealEd.EdGraphNode_Comment'"EdGraphNode_Comment_1"'
+      Nodes(10)=/Script/UnrealEd.EdGraphNode_Comment'"EdGraphNode_Comment_3"'
+      Nodes(11)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_0"'
+      Nodes(12)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_0"'
+      Nodes(13)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_14"'
+      Nodes(14)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_2"'
+      Nodes(15)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_2"'
+      Nodes(16)=/Script/UnrealEd.EdGraphNode_Comment'"EdGraphNode_Comment_4"'
+      Nodes(17)=/Script/UnrealEd.EdGraphNode_Comment'"EdGraphNode_Comment_5"'
+      Nodes(18)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_12"'
+      GraphGuid=4E5CE47E4C972FE4103DB9A377F15DAF
+   End Object
+   Begin Object Name="BTComposite_Selector_0"
+      Children(0)=(ChildTask=/Game/Characters/AI/BTTask_DestroyChar.BTTask_DestroyChar_C'"BT_NPC:BTTask_DestroyChar_C_0"')
+      NodeName="Target Reached Selector"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_6"'
+   End Object
+   Begin Object Name="BTComposite_Selector_4"
+      Children(0)=(ChildTask=/Game/Characters/AI/BTT_Set_Var_INT.BTT_Set_Var_INT_C'"BT_NPC:BTT_Set_Var_INT_C_1"')
+      Children(1)=(ChildComposite=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_5"')
+      NodeName="Variable Initializer"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+   End Object
+   Begin Object Name="BTComposite_Selector_5"
+      Children(0)=(ChildComposite=/Script/AIModule.BTComposite_Sequence'"BT_NPC:BTComposite_Sequence_0"',Decorators=(/Script/AIModule.BTDecorator_CompareBBEntries'"BT_NPC:BTDecorator_CompareBBEntries_3"'))
+      Children(1)=(ChildComposite=/Script/AIModule.BTComposite_Sequence'"BT_NPC:BTComposite_Sequence_3"',Decorators=(/Script/AIModule.BTDecorator_CompareBBEntries'"BT_NPC:BTDecorator_CompareBBEntries_4"'))
+      Children(2)=(ChildComposite=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_6"',Decorators=(/Script/AIModule.BTDecorator_CompareBBEntries'"BT_NPC:BTDecorator_CompareBBEntries_1"'))
+      NodeName="Investigation Selector"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_4"'
+   End Object
+   Begin Object Name="BTComposite_Selector_6"
+      Children(0)=(ChildTask=/Game/Characters/AI/BTTask_Patrol.BTTask_Patrol_C'"BT_NPC:BTTask_Patrol_C_3"')
+      Children(1)=(ChildComposite=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_0"',Decorators=(/Script/AIModule.BTDecorator_CompareBBEntries'"BT_NPC:BTDecorator_CompareBBEntries_2"'))
+      NodeName="Target Aquire Selector"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_5"'
+   End Object
+   Begin Object Name="BTComposite_Sequence_0"
+      Children(0)=(ChildTask=/Script/AIModule.BTTask_MoveTo'"BT_NPC:BTTask_MoveTo_1"')
+      Children(1)=(ChildTask=/Game/Characters/AI/BTT_Set_Var_INT.BTT_Set_Var_INT_C'"BT_NPC:BTT_Set_Var_INT_C_2"')
+      NodeName="Attracted Sequence"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_5"'
+   End Object
+   Begin Object Name="BTComposite_Sequence_3"
+      Children(0)=(ChildTask=/Game/Characters/AI/BTTask_Repulsive_Sound.BTTask_Repulsive_Sound_C'"BT_NPC:BTTask_Repulsive_Sound_C_2"')
+      NodeName="Repulsive Sequence"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_5"'
+   End Object
+   Begin Object Name="BTDecorator_CompareBBEntries_1"
+      BlackboardKeyA=(SelectedKeyName="Repulsive")
+      BlackboardKeyB=(SelectedKeyName="Attractive")
+      FlowAbortMode=Self
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_5"'
+   End Object
+   Begin Object Name="BTDecorator_CompareBBEntries_2"
+      Operator=NotEqual
+      BlackboardKeyA=(SelectedKeyName="DestrChar")
+      BlackboardKeyB=(SelectedKeyName="CompareVal")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_6"'
+   End Object
+   Begin Object Name="BTDecorator_CompareBBEntries_3"
+      Operator=NotEqual
+      BlackboardKeyA=(SelectedKeyName="CompareVal")
+      BlackboardKeyB=(SelectedKeyName="Attractive")
+      FlowAbortMode=Self
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_5"'
+   End Object
+   Begin Object Name="BTDecorator_CompareBBEntries_4"
+      Operator=NotEqual
+      BlackboardKeyA=(SelectedKeyName="CompareVal")
+      BlackboardKeyB=(SelectedKeyName="Repulsive")
+      FlowAbortMode=Self
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_5"'
+   End Object
+   Begin Object Name="BTT_Set_Var_INT_C_1"
+      Blackboard Value=(SelectedKeyName="CompareVal")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_4"'
+   End Object
+   Begin Object Name="BTT_Set_Var_INT_C_2"
+      Blackboard Value=(SelectedKeyName="Attractive")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_NPC:BTComposite_Sequence_0"'
+   End Object
+   Begin Object Name="BTTask_DestroyChar_C_0"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_0"'
+   End Object
+   Begin Object Name="BTTask_MoveTo_1"
+      Begin Object Name="BlackboardKey_Object_0"
+      End Object
+      Begin Object Name="BlackboardKey_Vector"
+      End Object
+      AcceptableRadius=1.000000
+      bStopOnOverlapNeedsUpdate=False
+      BlackboardKey=(SelectedKeyName="SoundLocation")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_NPC:BTComposite_Sequence_0"'
+   End Object
+   Begin Object Name="BTTask_Patrol_C_3"
+      Blackboard Value=(SelectedKeyName="DestrChar")
+      TargetLocation=(SelectedKeyName="TargetLocation")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_NPC:BTComposite_Selector_6"'
+   End Object
+   Begin Object Name="BTTask_Repulsive_Sound_C_2"
+      SoundLocation=(SelectedKeyName="SoundLocation")
+      Repulsiive=(SelectedKeyName="Repulsive")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_NPC:BTComposite_Sequence_3"'
+   End Object
+   Begin Object Name="BTTask_Set45_Target_C_0"
+      CurrDirectionVect=(SelectedKeyName="CurrentDirectionVect")
+      SoundLocation=(SelectedKeyName="SoundLocation")
+      NPCLocation=(SelectedKeyName="NPCLocation")
+      TempTarget=(SelectedKeyName="TempTarget")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_NPC"'
+   End Object
+   RootNode=/Script/AIModule.BTComposite_Selector'"BTComposite_Selector_4"'
+   BTGraph=/Script/BehaviorTreeEditor.BehaviorTreeGraph'"Behavior Tree"'
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/Characters/AI/BT_NPC.BT_NPC:Behavior Tree",SavedViewOffset=(X=-1197.050730,Y=1141.635202),SavedZoomAmount=0.675000)
+   BlackboardAsset=/Script/AIModule.BlackboardData'"/Game/Characters/AI/BB_NPC.BB_NPC"'
+End Object
